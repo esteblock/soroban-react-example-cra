@@ -2,6 +2,9 @@
 
 This project uses the [@soroban-react](https://github.com/esteblock/soroban-react) library in order to connect a Soroban (and non-soroban Stellar) wallet to a ReactJS project.  This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) in order to 
 
+# Example
+Try it [here in this Vercel App!](https://soroban-react-example-cra.vercel.app/)
+
 # Usage:
 [@soroban-react](https://github.com/esteblock/soroban-react) allows to connect your ReactJS project with several wallets (Connectors). For now, the only supported wallet is [Freighter](https://github.com/stellar/freighter). So in order to test the library in this project, you'll need to setup a Freighter wallet connected to some Soroban network.
 
