@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+# @soroban-react library example using Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project uses the [@soroban-react](https://github.com/esteblock/soroban-react) library in order to connect a Soroban (and non-soroban Stellar) wallet to a ReactJS project.  This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) in order to 
 
-## Available Scripts
+# Usage:
+[@soroban-react](https://github.com/esteblock/soroban-react) allows to connect your ReactJS project with several wallets (Connectors). For now, the only supported wallet is [Freighter](https://github.com/stellar/freighter). So in order to test the library in this project, you'll need to setup a Freighter wallet connected to some Soroban network.
 
-In the project directory, you can run:
+## Setup Freighter in Chrome or Brave:
+1. Install the custom Freighter Soroban release from https://github.com/stellar/freighter/releases/tag/v2.6.0-beta.2
+2. Enable "Experimental Mode" in the settings (gear icon).
+3. Connect to the [Futurenet] (https://soroban.stellar.org/docs/networks/futurenet) network.
+4. Use the [Futurenet friendbot](https://laboratory.stellar.org/#account-creator?network=futurenet) tu fund your account with Lumens.
 
-### `yarn start`
+## Install and run this project
 
-Runs the app in the development mode.\
+```
+yarn
+yarn start
+```
+Open 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Experiment:
+You will be asked to connect your wallet. Once you do it, you'll be able to see your account, your balance and the network you are using. Explore changing your account and/or network to see changes in real time.
 
-### `yarn test`
+Enjoy!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Go further.
+If you want to use your local Futurenet RPC, local Sandbox or Standalone Soroban network, follow the instructions [here](https://github.com/stellar/soroban-example-dapp)
