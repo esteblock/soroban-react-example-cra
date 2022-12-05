@@ -1633,10 +1633,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@soroban-react/core@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@soroban-react/core/-/core-1.0.2.tgz#2a7f5a4f9610adacdf3e26153175f5218fa37f29"
-  integrity sha512-dbAHOi4jtElt/JMFRr2bU4tMYEn312b0DloM2iTicMQI53gILkQz8mxGB11nob9HBuGTWPF0/7h29q61jINEBA==
+"@soroban-react/core@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@soroban-react/core/-/core-1.0.3.tgz#5ec169b81c50689ed8e7b5a009f2ecc7fe63ecd0"
+  integrity sha512-nmaVt4YAknTKMyOl8nleNA1WD/eAx+8w32E6aTJfek97+q7gViN+DihMFt8R3mt2uJTcAspcuBfu4TKuVe6UKg==
   dependencies:
     "@soroban-react/freighter" "^1.0.0"
     "@soroban-react/types" "1.0.0"
